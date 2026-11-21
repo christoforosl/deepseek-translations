@@ -1,0 +1,27 @@
+{
+  "name": "deepseek-translations",
+  "version": "1.0.0",
+  "description": "Translate Word documents to English Markdown using DeepSeek API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "translate": "ts-node src/index.ts",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "html-to-docx": "^1.8.0",
+    "mammoth": "^1.8.0",
+    "marked": "^18.0.6",
+    "openai": "^4.67.0",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/html-to-docx": "^1.8.1",
+    "@types/node": "^22.0.0",
+    "@types/turndown": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

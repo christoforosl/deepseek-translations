@@ -1,0 +1,11 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "npm install": true,
+        "npx tsc": true,
+        "/^node dist/index\\.js \"C:\\\\Users\\\\christoforosl\\\\Claude-Work\\\\PROJECTS\\\\PENSION-USER-STORIES\\\\SPF-002 - Στοιχεία Επικοινωνίας Αιτητή\\.doc\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "npm i": true
+    }
+}
