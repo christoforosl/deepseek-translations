@@ -68,6 +68,4 @@ node dist/index.js "C:\Users\christofjkl\Claude-Work\PROJECTS\PENSION-USER-STORI
 ---
 
 ## Notes
-
-- Large documents are automatically split into chunks and reassembled after translation.
 - Markdown formatting (headings, tables, lists, bold/italic, code blocks) is preserved through the translation.
